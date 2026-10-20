@@ -1,0 +1,14 @@
+{
+  "name": "15.conception",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "json-server ./data.json -s ./public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.15"
+  }
+}

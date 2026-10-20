@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f4f6fb">
+    <title>Memori</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <main class="game">
+        <header class="game-header">
+            <div>
+                <p class="eyebrow">Jeu de mémoire</p>
+                <h1>Memori</h1>
+            </div>
+            <button class="restart-button" id="restart" type="button">Recommencer</button>
+        </header>
+
+        <section class="scoreboard" aria-label="Statistiques de la partie">
+            <div class="stat">
+                <span class="stat-label">Score</span>
+                <strong id="score">0</strong>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Meilleur</span>
+                <strong id="best-score">0</strong>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Temps</span>
+                <strong id="time">01:00</strong>
+            </div>
+        </section>
+
+        <p class="message" id="message" aria-live="polite">Trouvez les 8 paires avant la fin du temps !</p>
+        <section class="board" id="board" aria-label="Plateau de jeu"></section>
+    </main>
+</body>
+</html>
